@@ -1,0 +1,9 @@
+#TO DO
+- Create another demo blogdown website to study 
+- Change the theme to be black and k-state purple for icons 
+- Remove Academic/Demos content 
+- Change the top Academic title toolbar  (keep white or make it K-state purple?)
+- Remove Demo, courses, and contact (keep it simple). Add Resume. 
+- Keep skills section, remove experience, and accomplishments 
+- Upload new profile picture 
+- Make the links active 
