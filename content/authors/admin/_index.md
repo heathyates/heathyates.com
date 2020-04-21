@@ -10,38 +10,38 @@ authors:
 superuser: true
 
 # Role/position
-role: Adjunct Professor of Computer Science 
+role: Clinical Informatics Analyst  
 
 # Organizations/Affiliations
 organizations:
-- name: Kansas State University 
-  url: ""
+- name: Centene  
+  url: "https://www.centene.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include healthcare analytics, machine learning, and affective computing 
 
 interests:
+- Healthcare Analytics 
 - Machine Learning 
-- Affective Computing 
-- Clinical Informatics 
+- Affective Computing
 
 education:
   courses:
   - course: PhD in Computer Science 
     institution: Kansas State University 
-    year: 2018
+    #year: 2018
   - course: MS in Computer Science 
     institution: Kansas State University 
-    year: 2009
+    #year: 2009
   - course: MS in Statistics 
     institution: Kansas State University 
-    year: 2009
+    #year: 2009
   - course: MS in Mathematics 
     institution: Emporia State University
-    year: 2009
+    #year: 2009
   - course: BS in Mathematics 
     institution: University of Missouri - Kansas City 
-    year: 2008
+    #year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -50,16 +50,19 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:hlyates@ksu.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://twitter.com/YatesHeath
+- icon: linkedin-in
+  icon_pack: fab
+  link: https://www.linkedin.com/in/heathyates/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/heathyates
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=JbmoU08AAAAJ&hl=en
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -71,11 +74,10 @@ email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a Clinical Informatics Analyst at [Centene](https://www.centene.com). I am an adjunct professor of Computer Science at [Kansas State University](https://www.cs.ksu.edu/). In addition, I am a member and participant in the [KC R User Group](https://www.meetup.com/Kansas-City-R-Users-Group/). My research interests include healthcare analytics, machine learning, and affective computing in built environments. 

@@ -1,9 +1,18 @@
 #TO DO
-- Create another demo blogdown website to study 
-- Change the theme to be black and k-state purple for icons 
-- Remove Academic/Demos content 
+
+- Update the footer to have a disclaimer, fair use policy
+- Add CV to static/files/
+- Add custom icon to the website 
+
+#Accomplished 
+- Change the theme to be black and k-state purple for icons (data/themes + layouts/partial in root need to modify theme)
 - Change the top Academic title toolbar  (keep white or make it K-state purple?)
-- Remove Demo, courses, and contact (keep it simple). Add Resume. 
-- Keep skills section, remove experience, and accomplishments 
+- Remove Academic/Demos content 
 - Upload new profile picture 
-- Make the links active 
+- Update the social media links below the profile pic 
+- Refactor Affiliation
+- Refactor Posts to Blog 
+- Add Resume section (either pdf or page that is a rebranded experience)
+- Remove Publications, Courses, Contacts 
+- Remove skills, experience, accomplishments, and gallery
+- Refactor Biography 
