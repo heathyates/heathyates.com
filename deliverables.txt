@@ -1,7 +1,6 @@
 #TO DO
 
 - Update the footer to have a disclaimer, fair use policy
-- Add CV to static/files/
 - Add custom icon to the website 
 
 #Accomplished 
@@ -16,3 +15,6 @@
 - Remove Publications, Courses, Contacts 
 - Remove skills, experience, accomplishments, and gallery
 - Refactor Biography 
+- Removed sample talks and sample projects 
+- Created new tags for projects 
+- Add CV to static/files/
