@@ -1,7 +1,7 @@
 #TO DO
 
-- Update the footer to have a disclaimer, fair use policy
-- Add custom icon to the website 
+- Add custom icon to the website
+- Update the fair policy use to have creative commons at the botton 
 
 #Accomplished 
 - Change the theme to be black and k-state purple for icons (data/themes + layouts/partial in root need to modify theme)
@@ -18,3 +18,4 @@
 - Removed sample talks and sample projects 
 - Created new tags for projects 
 - Add CV to static/files/
+- Update the footer to have a disclaimer, fair use policy
