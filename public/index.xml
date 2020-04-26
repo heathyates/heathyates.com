@@ -2,50 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heath Yates</title>
-    <link>/</link>
-      <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.heathyates.com/</link>
+      <atom:link href="https://www.heathyates.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Heath Yates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Heath Yates, 2020</copyright><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Heath Yates, 2020</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.heathyates.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Heath Yates</title>
-      <link>/</link>
+      <link>https://www.heathyates.com/</link>
     </image>
     
     <item>
       <title>Affective Computing in Built Environments</title>
-      <link>/project/acbe/</link>
+      <link>https://www.heathyates.com/project/acbe/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>/project/acbe/</guid>
+      <guid>https://www.heathyates.com/project/acbe/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Full Disclaimer</title>
-      <link>/terms/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/terms/</guid>
-      <description>&lt;p&gt;This is a personal weblog collaboration – not a peer-reviewed journal or a sponsored publication. We make no representations as to accuracy, completeness, correctness, suitability, or validity of any information on this site and will not be liable for any errors, omissions, or delays in this information or any losses injuries, or damages arising from its display or use. All information is provided on an as-is basis. It is the reader’s responsibility to verify their own facts.&lt;/p&gt;
-&lt;p&gt;The views and opinions expressed in this blog are those of the authors and do not necessarily reflect the official policy or position of any other agency, organization, employer or company. Assumptions made in the analysis are not reflective of the position of any entity other than the author(s) – and, since we are critically-thinking human beings, these views are always subject to change, revision, and rethinking at any time. Please do not hold us to them in perpetuity.&lt;/p&gt;
-&lt;p&gt;Comments from the community associated with content on this website are the sole responsibility of their writers and the writers will take full responsibility, liability, and blame for any libel or litigation that result from something written in or as a direct result of something written in a comment. Therefore, feel free to challenge and disagree with this blog on social media – but this blog reserves the right to block any comment for any reason whatsoever (abusive, profane, rude, etc) – so keep it polite and relevant. Please!&lt;/p&gt;
-&lt;p&gt;The authors and the blog are not to be held responsible for misuse, reuse, recycled and cited and/or uncited copies of content within this blog by others.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy</title>
-      <link>/privacy/</link>
-      <pubDate>Thu, 28 Jun 2018 00:00:00 +0100</pubDate>
-      <guid>/privacy/</guid>
-      <description>&lt;p&gt;&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Hello World</title>
-      <link>/post/2020-04-23-hello/</link>
+      <link>https://www.heathyates.com/post/2020-04-23-hello/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/post/2020-04-23-hello/</guid>
+      <guid>https://www.heathyates.com/post/2020-04-23-hello/</guid>
       <description>
 
 
