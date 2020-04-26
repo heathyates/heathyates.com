@@ -3,64 +3,74 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.heathyates.com/tags/affect/</loc>
+    <loc>/tags/affect/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/project/acbe/</loc>
+    <loc>/project/acbe/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/</loc>
+    <loc>/project/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/project/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/</loc>
-    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/authors/admin/</loc>
+    <loc>/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/authors/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/categories/</loc>
+    <loc>/authors/admin/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/hello/</loc>
+    <loc>/authors/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/post/2020-04-23-hello/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/post/</loc>
+    <loc>/tags/hello/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/categories/r/</loc>
+    <loc>/post/2020-04-23-hello/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/talk/</loc>
+    <loc>/post/</loc>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/world/</loc>
+    <loc>/categories/r/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/world/</loc>
   </url>
   
 </urlset>
