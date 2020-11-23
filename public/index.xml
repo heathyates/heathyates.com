@@ -5,7 +5,7 @@
     <link>https://www.heathyates.com/</link>
       <atom:link href="https://www.heathyates.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Heath Yates</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Heath Yates, 2020</copyright><lastBuildDate>Thu, 23 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© Heath Yates, 2020</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://www.heathyates.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Heath Yates</title>
@@ -13,26 +13,80 @@
     </image>
     
     <item>
+      <title>Beginning my Blockchain Journey</title>
+      <link>https://www.heathyates.com/post/2020-11-22-beginning-my-blockchain-journey/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.heathyates.com/post/2020-11-22-beginning-my-blockchain-journey/</guid>
+      <description>
+&lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
+&lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
+
+
+&lt;div id=&#34;introduction&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Introduction&lt;/h1&gt;
+&lt;p&gt;The first thing I do when I learn about a technology is find the resources to learn more about it. I educate myself. As such, this blog post is my first step in the journey to learn about blockchain. As Lao Tzu might liked to have stated it, the first step in a thousand mile long journey.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;chinese_scenery.jpg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;However, as someone who believes deeply in the inclusive and open to anyone ethos that is foundational to the scientific community, developers, and open source community. I wanted to share the first step in my journey. Perhaps if you are interested, you can join me for the ride, and maybe, just maybe in a small way, I can assist you or others by suggesting cool links or sharing things I learn along the way.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;why-am-i-going-to-learn-about-blockchain&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Why am I going to learn about Blockchain?&lt;/h1&gt;
+&lt;p&gt;I am increasingly interested in blockchain technology and frameworks. Specifically, I am interested in the NEO implementation of blockchain technology. The framework promises to be a powerful, forward thinking, if not down right revolutionary way of realizing blockchain technology in our increasingly digital world.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/NEO_(cryptocurrency)_logo.svg/120px-NEO_(cryptocurrency)_logo.svg.png&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/NEO_(cryptocurrency)_logo.svg/120px-NEO_(cryptocurrency)_logo.svg.png&#34; width=&#34;25%&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In short, what does that mean? The world is changing and one of the most consistent trends is the digitization of all our technologies. Currently, it is believed that blockchain could be a key component in how people, business, and automated technologies interact in this digitized ecosystem. As such, I believe NEO provides a gateway for me to learn this technology. Specifically, I believe the technology stack promises a seat at the table for consumers, professionals, developers, and scientists.&lt;/p&gt;
+&lt;p&gt;I saved the best for last. It is open source and a community driven technology. As such, it is going to be my launching point into understanding blockchain and my ability to be a part of the future.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;educational-resources&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;Educational Resources&lt;/h1&gt;
+&lt;p&gt;This is not meant to be encyclopedic. However, this is my first step in my journey to learn about blockchain. My approach is simple. First, I am going to learn broadly and in a nontechnical fashion, what blockchain specifically is and isn’t. Second, I will then broaden my perspective by educating myself on some thinktank organizations. Third, I will read up on specific blockchain frameworks. After that, I will keep myself in the loop by following the latest trends in NEO. Finally, and arguably most importantly, I want to explore my place in the community by exploring the technological frameworks in a much more academic and technical way. I create a placeholder there for myself. That is where the fun will begin.&lt;/p&gt;
+&lt;div id=&#34;think-tanks&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Think Tanks&lt;/h2&gt;
+&lt;p&gt;A quick search on the internet will define a think tank as an organization or body of experts which provides advice or ideas on a specific technology. Going with that definition, here is a list of organizations I believe that falls neatly under that category that are worth following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.blockchainresearchinstitute.org/&#34;&gt;Blockchain Research Institute&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nist.gov/blockchain&#34;&gt;NIST Blockchain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.iso.org/committee/6266604.html&#34;&gt;ISO Blockchain&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;blockchain-frameworks&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Blockchain Frameworks&lt;/h2&gt;
+&lt;p&gt;This isn’t meant to be exhaustive, but here are some key links to blockchain technologies I am very interested in.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://neo.org/about&#34;&gt;NEO&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.poly.network/&#34;&gt;PolyNetwork&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://flamingo.finance/analytics&#34;&gt;Flamingo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;blockchain-news&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Blockchain News&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://neonewstoday.com/&#34;&gt;Neo News TOday&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div id=&#34;participation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Participation&lt;/h2&gt;
+&lt;p&gt;This is where I hope to deepen and mature my journey into learning about blockchain technology.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;&#34;&gt;The Blockchain Express&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>The Blockchain Express</title>
+      <link>https://www.heathyates.com/project/blockchain/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.heathyates.com/project/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Affective Computing in Built Environments</title>
       <link>https://www.heathyates.com/project/acbe/</link>
       <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://www.heathyates.com/project/acbe/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Hello World</title>
-      <link>https://www.heathyates.com/post/2020-04-23-hello/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://www.heathyates.com/post/2020-04-23-hello/</guid>
-      <description>
-
-
-&lt;div id=&#34;hello-world&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;Hello World&lt;/h1&gt;
-&lt;p&gt;My blog is under construction. Please come back soon.&lt;/p&gt;
-&lt;/div&gt;
-</description>
     </item>
     
   </channel>
