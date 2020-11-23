@@ -3,80 +3,90 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.heathyates.com/post/2020-11-22-beginning-my-blockchain-journey/</loc>
+    <loc>/post/2020-11-22-beginning-my-blockchain-journey/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/blockchain/</loc>
+    <loc>/tags/blockchain/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/categories/blockchain/</loc>
+    <loc>/categories/blockchain/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/categories/</loc>
+    <loc>/categories/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/learning/</loc>
+    <loc>/tags/learning/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/neo/</loc>
+    <loc>/tags/neo/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/project/blockchain/</loc>
+    <loc>/project/blockchain/</loc>
     <lastmod>2020-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/tags/affect/</loc>
+    <loc>/tags/affect/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/project/acbe/</loc>
+    <loc>/project/acbe/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/authors/admin/</loc>
+    <loc>/terms/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/authors/</loc>
+    <loc>/privacy/</loc>
+    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.heathyates.com/talk/</loc>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/</loc>
+  </url>
+  
+  <url>
+    <loc>/talk/</loc>
   </url>
   
 </urlset>

@@ -1,5 +1,5 @@
 ---
-title: "Beginning my Blockchain Journey"
+title: "Beginning My Blockchain Journey"
 author: "Heath Yates"
 date: "2020-11-22"
 categories: ["blockchain"]
@@ -42,6 +42,15 @@ This is not meant to be encyclopedic. However, this is my first step in my journ
 
 
 
+## Nontechnical Starter Materials 
+
+These are the materials I am going to use to dig in.A couple of caveats about the following links. First, these resources are not free, but are available on Amazon. Second, it is not an endorsement because I have not yet read them. The two links were based on reviews I have read and seem to be well regarded. 
+
+* [Blockchain Basics: A Non-Technical Introduction in 25 Steps](https://www.amazon.com/Blockchain-Basics-Non-Technical-Introduction-Steps/dp/1484226038/ref=sr_1_3?dchild=1&keywords=blockchain+basics&qid=1605231928&sr=8-3)
+* [Blockchain Revolution](https://www.amazon.com/Blockchain-Revolution-Technology-Cryptocurrencies-Changing/dp/1101980141/ref=sr_1_3?crid=1G3YVMKOJK152&dchild=1&keywords=don+tapscott+blockchain+revolution&qid=1606097748&sprefix=Don+Tapscott+%2Caps%2C174&sr=8-3)
+
+
+
 ## Think Tanks 
 
 A quick search on the internet will define a think tank as an organization or body of experts which provides advice or ideas on a specific technology. Going with that definition, here is a list of organizations I believe that falls neatly under that category that are worth following: 
@@ -63,15 +72,20 @@ This isn't meant to be exhaustive, but here are some key links to blockchain tec
 
 ## Blockchain News 
 
-* [Neo News TOday](https://neonewstoday.com/)
+* [Neo News Today](https://neonewstoday.com/)
 
 
 ## Participation 
 
-This is where I hope to deepen and mature my journey into learning about blockchain technology. 
+This is where I hope to deepen and mature my journey into learning about blockchain technology. At the time of this writing, I have nothing up yet. 
 
-* [The Blockchain Express]()
+* [The Blockchain Express](https://github.com/The-Blockchain-Express)
 
+However, my plan is to start playing around in that space. 
+
+# Wrapping Up 
+
+As I indicated earlier, a journey of a thousand miles begins with a single step. If you are interested in blockchain technology, I encourage you to come along for the ride. 
 
 
 
