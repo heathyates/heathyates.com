@@ -3,7 +3,8 @@ name = "heath_yates"
 
 # Is theme light or dark?
 # light = false 
-dark = true 
+light = true 
+#dark = true 
 
 # Primary
 primary = "#512888"
