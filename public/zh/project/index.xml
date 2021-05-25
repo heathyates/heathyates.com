@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Chinese website title...</title>
+    <link>https://www.heathyates.com/zh/project/</link>
+      <atom:link href="https://www.heathyates.com/zh/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>zh-Hans</language><copyright>© Heath Yates, 2021</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://www.heathyates.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://www.heathyates.com/zh/project/</link>
+    </image>
+    
+    <item>
+      <title>The Blockchain Express</title>
+      <link>https://www.heathyates.com/zh/project/blockchain/</link>
+      <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.heathyates.com/zh/project/blockchain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Affective Computing in Built Environments</title>
+      <link>https://www.heathyates.com/zh/project/acbe/</link>
+      <pubDate>Thu, 23 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://www.heathyates.com/zh/project/acbe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -12,7 +12,7 @@ copyright: '&copy; Heath Yates, {year}' # Footer text, e.g. '© {year} Me'
 ############################
 
 defaultContentLanguage: en
-hasCJKLanguage: false
+hasCJKLanguage: true  
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 

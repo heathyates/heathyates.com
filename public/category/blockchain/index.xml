@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>blockchain | Heath Yates</title>
-    <link>/category/blockchain/</link>
-      <atom:link href="/category/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.heathyates.com/category/blockchain/</link>
+      <atom:link href="https://www.heathyates.com/category/blockchain/index.xml" rel="self" type="application/rss+xml" />
     <description>blockchain</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Heath Yates, 2021</copyright><lastBuildDate>Sun, 22 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://www.heathyates.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>blockchain</title>
-      <link>/category/blockchain/</link>
+      <link>https://www.heathyates.com/category/blockchain/</link>
     </image>
     
     <item>
       <title>Beginning My Blockchain Journey</title>
-      <link>/post/2020-11-22-beginning-my-blockchain-journey/</link>
+      <link>https://www.heathyates.com/post/2020-11-22-beginning-my-blockchain-journey/</link>
       <pubDate>Sun, 22 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>/post/2020-11-22-beginning-my-blockchain-journey/</guid>
+      <guid>https://www.heathyates.com/post/2020-11-22-beginning-my-blockchain-journey/</guid>
       <description>
 &lt;link href=&#34;index_files/anchor-sections/anchor-sections.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script src=&#34;index_files/anchor-sections/anchor-sections.js&#34;&gt;&lt;/script&gt;
