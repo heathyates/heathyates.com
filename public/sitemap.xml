@@ -11,40 +11,16 @@
     <loc>/event/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url><url>
-    <loc>/post/2020-11-22-beginning-my-blockchain-journey/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/blockchain/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/category/blockchain/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/learning/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tag/neo/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/post/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/blockchain/</loc>
-    <lastmod>2020-11-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tag/affect/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/acbe/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/</loc>
+    <lastmod>2020-04-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
     <lastmod>2020-04-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/slides/</loc>
@@ -66,5 +42,9 @@
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/admin/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/post/</loc>
   </url>
 </urlset>

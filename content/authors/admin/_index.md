@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Clinical Informatics Analyst  
+role: Machine Learning Engineer 
 
 # Organizations/Affiliations
 organizations:
@@ -18,11 +18,11 @@ organizations:
   url: "https://www.centene.com"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include healthcare analytics, blockchain, R development, and machine learning 
+bio: My research interests include healthcare analytics, affective computing, R development, and machine learning 
 
 interests:
 - Healthcare Analytics 
-- Blockchain Technology
+- Affective Computing 
 - R Language
 - Machine Learning 
 
@@ -81,4 +81,4 @@ email: ""
 ---
 
 
-I am a Clinical Informatics Analyst at [Centene](https://www.centene.com). I am an adjunct professor of Computer Science at [Kansas State University](https://www.cs.ksu.edu/). In addition, I am a member and participant in the [KC R User Group](https://www.meetup.com/Kansas-City-R-Users-Group/). My research interests include healthcare analytics, blockchain technology, R, and machine learning.
+I am a Machine Learning Engineer at [Centene](https://www.centene.com). I am an adjunct professor of Computer Science at [Kansas State University](https://www.cs.ksu.edu/). In addition, I am a member and participant in the [KC R User Group](https://www.meetup.com/Kansas-City-R-Users-Group/). My research interests include healthcare analytics, affective computing, R, and machine learning.
