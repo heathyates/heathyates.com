@@ -1,0 +1,20 @@
+name: "yates-blog"
+title: "Heath Yates"
+description: |
+  Data analytics and machine learning blog
+output_dir: "_site"
+theme: theme.css
+base_url: www.heathyates.com
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - icon: fab fa-linkedin
+      href: https://www.linkedin.com/in/heathyates/
+    - icon: fab fa-github
+      href: https://github.com/heathyates
+    - icon: fab fa-gitlab
+      href: https://gitlab.com/heathlandonyates
+output: distill::distill_article
