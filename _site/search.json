@@ -5,14 +5,14 @@
       "title": "About me",
       "author": [],
       "contents": "\n\nProfessional\nI am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research.\nDomain Expertise\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development\nTechnical Proficiencies\nWorkbench\nVisual Studio Code\nRStudio IDE\nJupyterHub/Jupyter Notebooks\nGitlab/Github\nWSL2/Ubuntu\n\nLanguages\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nPython: venv, pandas, numpy, scikit-learn\nSQL: Teradata, Oracle\nMongo: Studio 3T\n\n",
-      "last_modified": "2022-02-05T20:59:38-06:00"
+      "last_modified": "2022-02-05T21:05:36-06:00"
     },
     {
       "path": "index.html",
-      "title": "Heath Yates",
+      "title": "Data Science Muses",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2022-02-05T20:59:38-06:00"
+      "last_modified": "2022-02-05T21:05:37-06:00"
     }
   ],
   "collections": ["posts/posts.json"]
