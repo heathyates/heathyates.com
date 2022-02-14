@@ -11,6 +11,8 @@ navbar:
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Resume"
+      href: resume/yates-resume-cv.pdf
     - icon: fab fa-linkedin
       href: https://www.linkedin.com/in/heathyates/
     - icon: fab fa-github
