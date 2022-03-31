@@ -1,8 +1,10 @@
 <footer class="site-footer">
-  
-    <p class = "bold"> 
-      <i>The views expressed on this account are mine alone and do not necessarily reflect the view of my employer, Centene and Sunflower Health Plan. </i>
-      </p>
-      
+
+<p class = "bold">
+<i>The views expressed on this account are mine alone and do not necessarily reflect the view of my employer, Centene and Sunflower Health Plan. </i>
+</p>
+
 </footer>
 .Rproj.user
+
+/.quarto/
