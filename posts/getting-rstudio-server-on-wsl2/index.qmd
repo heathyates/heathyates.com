@@ -3,6 +3,42 @@ title: "Getting RStudio Server on WSL2"
 author: "Heath Yates"
 date: "2/05/2022"
 categories: [R, WSL2]
-image: "image.jpg"
+image: "penguin.jpg"
 ---
 
+![Photo by Sai Kiran Anagani on StockSnap](coding.jpg){width=95% }
+
+
+## Introduction 
+
+As a developer from a background with .NET and Microsoft tools, it comes as no surprise that I use Windows as my development platform. However, developing on Windows has never been better. The Windows Subsystem for Linux (WSL) allows a developer to essentially to right at home with linux, arguably the best contemporary platform for developing. 
+
+As an R user, being able to develop on the linux platform and using RStudio IDE as a Windows users is a winning prospect. Fortunately, this has been made possible by RStudio and they wrote a lenthly blog post. 
+
+My blog post is just a brief outline of steps and references for getting RStudio server on WSL2. 
+
+
+## Pre-requisites 
+
+This blog will assume the following as pre-requisites. Namely, WSL2, Ubuntu, and R have been installed successfully. 
+
+  * Configure WSL2 and Ubuntu - [Link](https://cran.r-project.org/bin/linux/ubuntu/) 
+  * Install R on WSL2 - [Link](https://cran.r-project.org/bin/linux/ubuntu/)
+
+
+## Installing RStudio 
+
+
+For a more lengthy outline of the following steps, I encourage the reader to follow Gary Ritchie's blog post [here](https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2). 
+
+Install RStudio Server is extremely straight forward as possible. Enter the following command in WSL2: 
+
+`wget https://rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb`
+`sudo gdebi rstudio-server-latest-amd64.deb`
+
+Additionally, you can use the server itself by the accessing RStudio on your web browser at the url `http://localhost:8787`. You will need to enter in your your username and password that is used for the linux system on WSL. 
+
+
+## Using RStudio server on WSL2 
+
+You can start the server with `sudo rstudio-server start` and stop with `sudo rstudio-server stop`. It is that simple. 

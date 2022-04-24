@@ -2,18 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.heathyates.com/about.html</loc>
-    <lastmod>2022-04-24T01:54:00.703Z</lastmod>
+    <lastmod>2022-04-24T02:11:54.123Z</lastmod>
   </url>
   <url>
     <loc>https://www.heathyates.com/index.html</loc>
-    <lastmod>2022-04-24T01:54:01.093Z</lastmod>
+    <lastmod>2022-04-24T02:11:54.623Z</lastmod>
   </url>
   <url>
     <loc>https://www.heathyates.com/posts/welcome/index.html</loc>
-    <lastmod>2022-04-24T01:54:01.443Z</lastmod>
+    <lastmod>2022-04-24T02:11:54.973Z</lastmod>
   </url>
   <url>
     <loc>https://www.heathyates.com/posts/post-with-code/index.html</loc>
-    <lastmod>2022-04-24T01:54:01.793Z</lastmod>
+    <lastmod>2022-04-24T02:11:55.343Z</lastmod>
+  </url>
+  <url>
+    <loc>https://www.heathyates.com/posts/getting-rstudio-server-on-wsl2/index.html</loc>
+    <lastmod>2022-04-24T02:11:55.703Z</lastmod>
   </url>
 </urlset>
