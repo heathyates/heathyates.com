@@ -1,0 +1,8 @@
+---
+title: "Getting RStudio Server on WSL2"
+author: "Heath Yates"
+date: "2/05/2022"
+categories: [R, WSL2]
+image: "image.jpg"
+---
+

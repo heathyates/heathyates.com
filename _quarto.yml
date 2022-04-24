@@ -2,18 +2,23 @@ project:
   type: website
 
 website:
-  title: "heathyates"
+  title: "Heath Yates"
+  description: "Personal Blog of Heath Yates"
+  site-url: https://www.heathyates.com
   navbar:
     right:
       - about.qmd
+      - text: "Resume"
+        href: resume/yates-resume-cv.pdf
       - icon: github
-        href: https://github.com/
+        href: https://github.com/heathyates
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/YatesHeath
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme: 
+      - cosmo
+      - style.scss
 
 
 

@@ -4,12 +4,26 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this blog"
+    "text": "jolla I am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research."
+  },
+  {
+    "objectID": "about.html#domain-expertise",
+    "href": "about.html#domain-expertise",
+    "title": "About",
+    "section": "Domain Expertise",
+    "text": "Domain Expertise\n\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development"
+  },
+  {
+    "objectID": "about.html#technical-proficiencies",
+    "href": "about.html#technical-proficiencies",
+    "title": "About",
+    "section": "Technical Proficiencies",
+    "text": "Technical Proficiencies\n\nWorkbench\n\nVisual Studio Code\nRStudio IDE\nJupyterHub/Jupyter Notebooks\nGitlab/Github\nWSL2/Ubuntu\n\nLanguages\n\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nPython: venv, pandas, numpy, scikit-learn\nSQL: Teradata, Oracle\nMongo: Studio 3T"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "heathyates",
+    "title": "Data Science Muses",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\nThis is a post with executable code.\n\n\n\n\n\n\nMar 30, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n\n\n\n\n\nMar 27, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
