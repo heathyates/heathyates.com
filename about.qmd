@@ -1,8 +1,8 @@
 ---
-title: "About"
-image: circleprofileyates.png
+title: "About Me"
 about:
-  template: marquee
+  template: trestles 
+  image: circleprofileyatessmall.png 
   links:
     - icon: twitter
       text: Twitter
@@ -13,33 +13,27 @@ about:
     - icon: github
       text: Github
       href: https://github.com/heathyates
-
 ---
 
-## Professional
-
-jolla
-I am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research.
-
+I am a machine learning engineer at [Centene](www.centene.com). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
 
 ## Domain Expertise
 
-  * Applied Data Analytics
-  * Machine Learning Engineering
-  * Research and Development
+* Applied Data Analytics 
+* Machine Learning Engineering 
+* Research and Development 
 
+## Technical Proficiences 
 
-## Technical Proficiencies
+* **Workbench**
+  + Visual Studio Code 
+  + RStudio IDE 
+  + Jupyter Notebooks
+  + Github 
+  + WSL2/Ubuntu 
 
-  * **Workbench**
-    - Visual Studio Code
-    - RStudio IDE
-    - JupyterHub/Jupyter Notebooks
-    - Gitlab/Github
-    - WSL2/Ubuntu
-    
-  * **Languages**
-    - R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny
-    - Python: venv, pandas, numpy, scikit-learn
-    - SQL: Teradata, Oracle
-    - Mongo: Studio 3T
+* **Languages**
+  + Python: venv, pandas, numpy, scikit-learn 
+  + R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny 
+  + SQL: Teradata, Oracle 
+  + Mongo: Studio 3T 

@@ -2,23 +2,9 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "jolla I am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research."
-  },
-  {
-    "objectID": "about.html#domain-expertise",
-    "href": "about.html#domain-expertise",
-    "title": "About",
-    "section": "Domain Expertise",
-    "text": "Domain Expertise\n\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development"
-  },
-  {
-    "objectID": "about.html#technical-proficiencies",
-    "href": "about.html#technical-proficiencies",
-    "title": "About",
-    "section": "Technical Proficiencies",
-    "text": "Technical Proficiencies\n\nWorkbench\n\nVisual Studio Code\nRStudio IDE\nJupyterHub/Jupyter Notebooks\nGitlab/Github\nWSL2/Ubuntu\n\nLanguages\n\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nPython: venv, pandas, numpy, scikit-learn\nSQL: Teradata, Oracle\nMongo: Studio 3T"
+    "text": "I am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research"
   },
   {
     "objectID": "index.html",
@@ -61,5 +47,33 @@
     "title": "Getting RStudio Server on WSL2",
     "section": "Using RStudio server on WSL2",
     "text": "Using RStudio server on WSL2\nYou can start the server with sudo rstudio-server start and stop with sudo rstudio-server stop. It is that simple."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sep 2011 - June 2015\nMacalester College | St. Paul MA B.A in Economics | Sep 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About Me",
+    "section": "Experience",
+    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "about.html#domain-expertise",
+    "href": "about.html#domain-expertise",
+    "title": "About Me",
+    "section": "Domain Expertise",
+    "text": "Domain Expertise\n\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development"
+  },
+  {
+    "objectID": "about.html#technical-proficiences",
+    "href": "about.html#technical-proficiences",
+    "title": "About Me",
+    "section": "Technical Proficiences",
+    "text": "Technical Proficiences\n\nWorkbench\n\nVisual Studio Code\nRStudio IDE\nJupyter Notebooks\nGithub\nWSL2/Ubuntu\n\nLanguages\n\nPython: venv, pandas, numpy, scikit-learn\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nSQL: Teradata, Oracle\nMongo: Studio 3T"
   }
 ]
