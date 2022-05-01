@@ -1,0 +1,39 @@
+---
+title: "About Me"
+about:
+  template: trestles 
+  image: circleprofileyatessmall.png 
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/YatesHeath
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/heathyates/ 
+    - icon: github
+      text: Github
+      href: https://github.com/heathyates
+---
+
+I am a machine learning engineer at [Centene](www.centene.com). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
+
+## Domain Expertise
+
+* Applied Data Analytics 
+* Machine Learning Engineering 
+* Research and Development 
+
+## Technical Proficiences 
+
+* **Workbench**
+  + Visual Studio Code 
+  + RStudio IDE 
+  + Jupyter Notebooks
+  + Github 
+  + WSL2/Ubuntu 
+
+* **Languages**
+  + Python: venv, pandas, numpy, scikit-learn 
+  + R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny 
+  + SQL: Teradata, Oracle 
+  + Mongo: Studio 3T 

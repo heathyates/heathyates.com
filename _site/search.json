@@ -1,19 +1,65 @@
-{
-  "articles": [
-    {
-      "path": "about.html",
-      "title": "About me",
-      "author": [],
-      "contents": "\n\nProfessional\nI am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research.\nDomain Expertise\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development\nTechnical Proficiencies\nWorkbench\nVisual Studio Code\nRStudio IDE\nJupyterHub/Jupyter Notebooks\nGitlab/Github\nWSL2/Ubuntu\n\nLanguages\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nPython: venv, pandas, numpy, scikit-learn\nSQL: Teradata, Oracle\nMongo: Studio 3T\n\n",
-      "last_modified": "2022-02-13T21:02:29-06:00"
-    },
-    {
-      "path": "index.html",
-      "title": "Data Science Muses",
-      "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2022-02-13T21:02:30-06:00"
-    }
-  ],
-  "collections": ["posts/posts.json"]
-}
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I am a machine learning engineer at Centene. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research"
+  },
+  {
+    "objectID": "about.html#domain-expertise",
+    "href": "about.html#domain-expertise",
+    "title": "About Me",
+    "section": "Domain Expertise",
+    "text": "Domain Expertise\n\nApplied Data Analytics\nMachine Learning Engineering\nResearch and Development"
+  },
+  {
+    "objectID": "about.html#technical-proficiences",
+    "href": "about.html#technical-proficiences",
+    "title": "About Me",
+    "section": "Technical Proficiences",
+    "text": "Technical Proficiences\n\nWorkbench\n\nVisual Studio Code\nRStudio IDE\nJupyter Notebooks\nGithub\nWSL2/Ubuntu\n\nLanguages\n\nPython: venv, pandas, numpy, scikit-learn\nR: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny\nSQL: Teradata, Oracle\nMongo: Studio 3T"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science Muses",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\n\n\n\n\n\n\nR\n\n\nWSL2\n\n\n\n\n\n\n\nPhoto by Sai Kiran Anagani on StockSnap\n\n\n\n\n\n\n\n\nFeb 5, 2022\n\n\nHeath Yates\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/getting-rstudio-server-on-wsl2/index.html",
+    "href": "posts/getting-rstudio-server-on-wsl2/index.html",
+    "title": "Getting RStudio Server on WSL2",
+    "section": "",
+    "text": "Photo by Sai Kiran Anagani on StockSnap"
+  },
+  {
+    "objectID": "posts/getting-rstudio-server-on-wsl2/index.html#introduction",
+    "href": "posts/getting-rstudio-server-on-wsl2/index.html#introduction",
+    "title": "Getting RStudio Server on WSL2",
+    "section": "Introduction",
+    "text": "Introduction\nAs a developer from a background with .NET and Microsoft tools, it comes as no surprise that I use Windows as my development platform. However, developing on Windows has never been better. The Windows Subsystem for Linux (WSL) allows a developer to essentially to right at home with linux, arguably the best contemporary platform for developing.\nAs an R user, being able to develop on the linux platform and using RStudio IDE as a Windows users is a winning prospect. Fortunately, this has been made possible by RStudio and they wrote a lenthly blog post.\nMy blog post is just a brief outline of steps and references for getting RStudio server on WSL2."
+  },
+  {
+    "objectID": "posts/getting-rstudio-server-on-wsl2/index.html#pre-requisites",
+    "href": "posts/getting-rstudio-server-on-wsl2/index.html#pre-requisites",
+    "title": "Getting RStudio Server on WSL2",
+    "section": "Pre-requisites",
+    "text": "Pre-requisites\nThis blog will assume the following as pre-requisites. Namely, WSL2, Ubuntu, and R have been installed successfully.\n\nConfigure WSL2 and Ubuntu - Link\nInstall R on WSL2 - Link"
+  },
+  {
+    "objectID": "posts/getting-rstudio-server-on-wsl2/index.html#installing-rstudio",
+    "href": "posts/getting-rstudio-server-on-wsl2/index.html#installing-rstudio",
+    "title": "Getting RStudio Server on WSL2",
+    "section": "Installing RStudio",
+    "text": "Installing RStudio\nFor a more lengthy outline of the following steps, I encourage the reader to follow Gary Ritchie’s blog post here.\nInstall RStudio Server is extremely straight forward as possible. Enter the following command in WSL2:\nwget https://rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb sudo gdebi rstudio-server-latest-amd64.deb\nAdditionally, you can use the server itself by the accessing RStudio on your web browser at the url http://localhost:8787. You will need to enter in your your username and password that is used for the linux system on WSL."
+  },
+  {
+    "objectID": "posts/getting-rstudio-server-on-wsl2/index.html#using-rstudio-server-on-wsl2",
+    "href": "posts/getting-rstudio-server-on-wsl2/index.html#using-rstudio-server-on-wsl2",
+    "title": "Getting RStudio Server on WSL2",
+    "section": "Using RStudio server on WSL2",
+    "text": "Using RStudio server on WSL2\nYou can start the server with sudo rstudio-server start and stop with sudo rstudio-server stop. It is that simple."
+  }
+]

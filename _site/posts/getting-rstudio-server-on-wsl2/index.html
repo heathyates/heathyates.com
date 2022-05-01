@@ -3,7 +3,8 @@
   <meta charset="utf-8">
   <meta name="generator" content="quarto-0.9.166">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Heath Yates - About Me</title>
+  <meta name="author" content="Heath Yates">
+  <title>Heath Yates - Getting RStudio Server on WSL2</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -13,22 +14,22 @@
     ul.task-list{list-style: none;}
   </style>
 
-  <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-  <script src="site_libs/quarto-nav/headroom.min.js"></script>
-  <script src="site_libs/clipboard/clipboard.min.js"></script>
-  <meta name="quarto:offset" content="./">
-  <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-  <script src="site_libs/quarto-search/fuse.min.js"></script>
-  <script src="site_libs/quarto-search/quarto-search.js"></script>
-  <script src="site_libs/quarto-html/quarto.js"></script>
-  <script src="site_libs/quarto-html/popper.min.js"></script>
-  <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-  <script src="site_libs/quarto-html/anchor.min.js"></script>
-  <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-  <link id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-  <script src="site_libs/bootstrap/bootstrap.min.js"></script>
-  <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-  <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+  <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+  <script src="../../site_libs/clipboard/clipboard.min.js"></script>
+  <meta name="quarto:offset" content="../../">
+  <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+  <script src="../../site_libs/quarto-search/fuse.min.js"></script>
+  <script src="../../site_libs/quarto-search/quarto-search.js"></script>
+  <script src="../../site_libs/quarto-html/quarto.js"></script>
+  <script src="../../site_libs/quarto-html/popper.min.js"></script>
+  <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+  <script src="../../site_libs/quarto-html/anchor.min.js"></script>
+  <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+  <link id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+  <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+  <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
   <script id="quarto-search-options" type="application/json">{
     "location": "navbar",
     "copy-button": false,
@@ -57,7 +58,7 @@
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Heath Yates</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -66,10 +67,10 @@
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page">About Me</a>
+    <a class="nav-link" href="../../about.html">About Me</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume/yates-resume-cv.pdf">Resume</a>
+    <a class="nav-link" href="../../resume/yates-resume-cv.pdf">Resume</a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/heathyates"><i class="bi bi-github" role="img">
@@ -93,55 +94,49 @@
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="circleprofileyatessmall.png" class="about-image
-  rounded " style="width: 20em;">
-<header id="title-block-header" class="quarto-title-block default">
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full" data-sidebar-align="true">
 
-<div class="quarto-title"><h1 class="title display-7">About Me</h1></div></header>
-    <div class="about-links">
-  <a href="https://twitter.com/YatesHeath" class="about-link">Twitter</a>
-  <a href="https://www.linkedin.com/in/heathyates/" class="about-link">LinkedIn</a>
-  <a href="https://github.com/heathyates" class="about-link">Github</a>
+
+
+<div class="quarto-title-banner color-navbar page-columns page-full"><div class="quarto-title column-body"><h1 class="title display-7">Getting RStudio Server on WSL2</h1><div class="quarto-categories"><div class="quarto-category">R</div><div class="quarto-category">WSL2</div></div></div></div><div class="quarto-title-meta"><div><div class="quarto-title-meta-heading">Author</div><div class="quarto-title-meta-contents"><div class="quarto-title-authors"><div><div>
+<p>Heath Yates</p>
+</div></div></div></div></div><div><div class="quarto-title-meta-heading">Published</div><div class="quarto-title-meta-contents"><p class="date">February 5, 2022</p></div></div></div></header>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="coding.jpg" class="img-fluid figure-img" style="width:95.0%"></p>
+<p></p><figcaption aria-hidden="true" class="figure-caption">Photo by Sai Kiran Anagani on StockSnap</figcaption><p></p>
+</figure>
 </div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a machine learning engineer at <a href="www.centene.com">Centene</a>. I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research</p>
-<section id="domain-expertise" class="level2">
-<h2 class="anchored" data-anchor-id="domain-expertise">Domain Expertise</h2>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>As a developer from a background with .NET and Microsoft tools, it comes as no surprise that I use Windows as my development platform. However, developing on Windows has never been better. The Windows Subsystem for Linux (WSL) allows a developer to essentially to right at home with linux, arguably the best contemporary platform for developing.</p>
+<p>As an R user, being able to develop on the linux platform and using RStudio IDE as a Windows users is a winning prospect. Fortunately, this has been made possible by RStudio and they wrote a lenthly blog post.</p>
+<p>My blog post is just a brief outline of steps and references for getting RStudio server on WSL2.</p>
+</section>
+<section id="pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
+<p>This blog will assume the following as pre-requisites. Namely, WSL2, Ubuntu, and R have been installed successfully.</p>
 <ul>
-<li>Applied Data Analytics</li>
-<li>Machine Learning Engineering</li>
-<li>Research and Development</li>
+<li>Configure WSL2 and Ubuntu - <a href="https://cran.r-project.org/bin/linux/ubuntu/">Link</a></li>
+<li>Install R on WSL2 - <a href="https://cran.r-project.org/bin/linux/ubuntu/">Link</a></li>
 </ul>
 </section>
-<section id="technical-proficiences" class="level2">
-<h2 class="anchored" data-anchor-id="technical-proficiences">Technical Proficiences</h2>
-<ul>
-<li><strong>Workbench</strong>
-<ul>
-<li>Visual Studio Code</li>
-<li>RStudio IDE</li>
-<li>Jupyter Notebooks</li>
-<li>Github</li>
-<li>WSL2/Ubuntu</li>
-</ul></li>
-<li><strong>Languages</strong>
-<ul>
-<li>Python: venv, pandas, numpy, scikit-learn</li>
-<li>R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny</li>
-<li>SQL: Teradata, Oracle</li>
-<li>Mongo: Studio 3T</li>
-</ul></li>
-</ul>
+<section id="installing-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="installing-rstudio">Installing RStudio</h2>
+<p>For a more lengthy outline of the following steps, I encourage the reader to follow Gary Ritchie’s blog post <a href="https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2">here</a>.</p>
+<p>Install RStudio Server is extremely straight forward as possible. Enter the following command in WSL2:</p>
+<p><code>wget https://rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb</code> <code>sudo gdebi rstudio-server-latest-amd64.deb</code></p>
+<p>Additionally, you can use the server itself by the accessing RStudio on your web browser at the url <code>http://localhost:8787</code>. You will need to enter in your your username and password that is used for the linux system on WSL.</p>
+</section>
+<section id="using-rstudio-server-on-wsl2" class="level2">
+<h2 class="anchored" data-anchor-id="using-rstudio-server-on-wsl2">Using RStudio server on WSL2</h2>
+<p>You can start the server with <code>sudo rstudio-server start</code> and stop with <code>sudo rstudio-server stop</code>. It is that simple.</p>
 
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+</main> <!-- /main -->
 <footer class="site-footer">
   
     <p class="bold"> 
