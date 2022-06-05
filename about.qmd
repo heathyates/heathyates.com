@@ -15,7 +15,7 @@ about:
       href: https://github.com/heathyates
 ---
 
-I am a machine learning engineer at [Centene](www.centene.com). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
+I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
 
 ## Domain Expertise
 
