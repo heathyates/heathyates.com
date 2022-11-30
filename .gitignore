@@ -1,10 +1,14 @@
-<footer class="site-footer">
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-<p class = "bold">
-<i>The views expressed on this account are mine alone and do not necessarily reflect the view of my employer, Centene and Sunflower Health Plan. </i>
-</p>
+#Quarto
+.quarto/
 
-</footer>
-.Rproj.user
-
+/env/
 /.quarto/
