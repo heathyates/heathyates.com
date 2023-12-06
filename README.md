@@ -15,6 +15,11 @@ You can verify the `quarto` installed properly by running the following command:
 
 ## 
 
+The following are used to spin up the localhost as follows: 
+
+`quarto render`
+`quarto preview`
+
 
 # Build Status 
 

@@ -1,8 +1,40 @@
 /*-- scss:defaults --*/
 
-$white:    #fff;
-$blue:    #512888;
+$primary-color: #512888; // K-State Purple
+$navbar-text-color: #fff; // White for navbar text/icons
+$hover-effect-color: lighten($primary-color, 15%); // Lighten the primary color for hover effect
+$text-link-hover-color: $primary-color; // Purple for text link hover
 
-//Nav-bar
-$primary:       $blue;
-$navbar-fg:     $white;
+/*-- scss:rules --*/
+
+.navbar {
+    background-color: $primary-color !important;
+
+    .nav-link, .navbar-brand, .bi {
+        color: $navbar-text-color !important;
+
+        &:hover, &:focus {
+            color: $hover-effect-color !important; // Apply hover effect
+        }
+    }
+}
+
+// Additional styling for other links if needed
+a {
+    color: $primary-color;
+
+    &:hover, &:focus {
+        color: $hover-effect-color;
+    }
+}
+
+// Specific targeting for 'About Me' section links
+#quarto-content .about-link {
+    &:hover, &:focus {
+        color: $primary-color; // Directly set to purple for hover
+
+        .bi { // Ensure the icon also changes color
+            color: $primary-color;
+        }
+    }
+}

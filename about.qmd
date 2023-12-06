@@ -7,6 +7,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/YatesHeath
+    - icon: cloud 
+      text: Blusky 
+      href: https://bsky.app/profile/heathyates.bsky.social
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/heathyates/ 
@@ -15,25 +18,24 @@ about:
       href: https://github.com/heathyates
 ---
 
-I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
+I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in machine learning, software engineering, and statistical analysis 
 
 ## Domain Expertise
 
-* Applied Data Analytics 
-* Machine Learning Engineering 
-* Research and Development 
+* Machine Learning 
+* Software Engineer 
+* Statistical Analysis 
 
 ## Technical Proficiences 
 
 * **Workbench**
   + Visual Studio Code 
-  + RStudio IDE 
+  + Vim 
   + Jupyter Notebooks
-  + Github 
-  + WSL2/Ubuntu 
+  + Jira 
+  + Confluence 
 
-* **Languages**
+* **Tech Stack**
   + Python: venv, pandas, numpy, scikit-learn 
-  + R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny 
-  + SQL: Teradata, Oracle 
-  + Mongo: Studio 3T 
+  + MLOps: GitLab, Github, Docker, Kafka, Ansible
+  + MLE: Label Studio, ClearML, Triton, PostgreSQL

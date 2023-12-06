@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.heathyates.com/about.html</loc>
-    <lastmod>2022-11-30T02:58:27.531Z</lastmod>
+    <loc>https://www.heathyates.com/posts/getting-rstudio-server-on-wsl2/index.html</loc>
+    <lastmod>2023-12-06T04:07:00.697Z</lastmod>
   </url>
   <url>
-    <loc>https://www.heathyates.com/posts/getting-rstudio-server-on-wsl2/index.html</loc>
-    <lastmod>2022-11-30T02:53:02.461Z</lastmod>
+    <loc>https://www.heathyates.com/about.html</loc>
+    <lastmod>2023-12-06T04:06:59.927Z</lastmod>
   </url>
   <url>
     <loc>https://www.heathyates.com/index.html</loc>
-    <lastmod>2022-11-30T02:54:49.991Z</lastmod>
+    <lastmod>2023-12-06T04:07:00.367Z</lastmod>
   </url>
 </urlset>

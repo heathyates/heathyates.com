@@ -1,0 +1,17 @@
+{
+    "name": "heathyates blog",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+        "ms-python.python"
+    ],
+    "forwardPorts": [
+        4000
+    ],
+    "postCreateCommand": "quarto check && git config --global --add safe.directory /workspace",
+    "shutdownAction": "stopCompose"
+}
