@@ -15,25 +15,48 @@ about:
       href: https://github.com/heathyates
 ---
 
-I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 7 years of combined experience in data analytics, software engineering, and research
+I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 8 years of combined experience in data analytics, software engineering, and research
 
 ## Domain Expertise
 
-* Applied Data Analytics 
 * Machine Learning Engineering 
+* Applied Data Analytics 
 * Research and Development 
 
 ## Technical Proficiences 
 
-* **Workbench**
-  + Visual Studio Code 
-  + RStudio IDE 
-  + Jupyter Notebooks
-  + Github 
-  + WSL2/Ubuntu 
+* **Python**
+  + venv
+  + pandas 
+  + numpy 
+  + scikit-learn
+  + pytorch 
+  + pytest 
+  + pydantic 
 
-* **Languages**
-  + Python: venv, pandas, numpy, scikit-learn 
-  + R: renv, tidyverse, distill, ggplot2, rmarkdown, and shiny 
-  + SQL: Teradata, Oracle 
-  + Mongo: Studio 3T 
+
+* **MLE Stack**
+  + LabelStudio 
+  + Triton 
+  + ClearML 
+  + Kafka 
+  + Postgresql 
+  + Teradata 
+  + S3 
+
+
+* **MLOps**
+  + Gitlab 
+  + Docker 
+  + Ansible 
+  + Terraform 
+  + AWS EC2 
+
+
+* **Workbench**
+  + VS Code 
+  + Vim 
+  + Jupyterhub Notebook 
+  + Ubuntu/WSL2 
+  + Jira
+  + Confluence 
