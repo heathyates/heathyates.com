@@ -13,7 +13,9 @@ This blog requires [quarto](https://docs.posit.co/resources/install-quarto/#inst
 You can verify the `quarto` installed properly by running the following command: `/usr/local/bin/quarto check`
 
 
-## 
+## Getting Started 
+
+Please spin up the container by running `Dev Containers: Rebuild Container without Cache` with the command palette. Once you have the container spun up. Please open a unique terminal and run `quarto preview`. 
 
 
 # Build Status 

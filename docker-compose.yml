@@ -1,0 +1,6 @@
+version: '3.8'
+services:
+  mywebsite:
+    build:
+      context: .
+      dockerfile: Dockerfile
