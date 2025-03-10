@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/getting-started-with-k3s-fast/index.html",
       "/posts/getting-rstudio-server-on-wsl2/index.html"
     ]
   }

@@ -39,27 +39,104 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "I am a machine learning engineer at Artisight. I am also an adjunct professor at Kansas State University. I have 8 years of combined experience in data analytics, software engineering, and research"
+    "text": "I’m a seasoned Senior Machine Learning Engineer at Artisight and an Adjunct Professor at Kansas State University, with a decade of hands-on experience solving real-world business problems through machine learning, software engineering, and data analytics. I also enjoy teaching, mentoring, and exploring new research."
   },
   {
     "objectID": "about.html#domain-expertise",
     "href": "about.html#domain-expertise",
     "title": "About Me",
     "section": "Domain Expertise",
-    "text": "Domain Expertise\n\nMachine Learning Engineering\nApplied Data Analytics\nResearch and Development"
+    "text": "Domain Expertise\n\nAI Systems Engineering\n\nMLOps & Automation\n\nApplied Research & Technical Leadership"
   },
   {
     "objectID": "about.html#technical-proficiences",
     "href": "about.html#technical-proficiences",
     "title": "About Me",
     "section": "Technical Proficiences",
-    "text": "Technical Proficiences\n\nPython\n\nvenv\npandas\nnumpy\nscikit-learn\npytorch\npytest\npydantic\n\nMLE Stack\n\nLabelStudio\nTriton\nClearML\nKafka\nPostgresql\nTeradata\nS3\n\nMLOps\n\nGitlab\nDocker\nAnsible\nTerraform\nAWS EC2\n\nWorkbench\n\nVS Code\nVim\nJupyterhub Notebook\nUbuntu/WSL2\nJira\nConfluence"
+    "text": "Technical Proficiences\n\nAI Engineer Stack\n\nPython\nLabelStudio\nTriton\nClearML\nKafka\nPostgresql\nTeradata\nS3\nDebian\nHailo\n\nMLOps\n\nGithub\nDocker\nAnsible\nTerraform\nAWS EC2\n\nWorkbench\n\nVS Code\nVim\nJupyterhub Notebook\nUbuntu/WSL2\nJira\nConfluence"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Data Science Muses",
+    "title": "Heath’s Mindware",
     "section": "",
-    "text": "Getting RStudio Server on WSL2\n\n\n\n\n\n\nR\n\n\nWSL2\n\n\n\n\n\n\n\n\n\nFeb 5, 2022\n\n\nHeath Yates\n\n\n\n\n\n\nNo matching items"
+    "text": "Getting Started with K3s Fast\n\n\n\n\n\n\nk3s\n\n\nkubernetes\n\n\n\n\n\n\n\n\n\nMar 9, 2025\n\n\nHeath Yates\n\n\n\n\n\n\n\n\n\n\n\n\nGetting RStudio Server on WSL2\n\n\n\n\n\n\nR\n\n\nWSL2\n\n\n\n\n\n\n\n\n\nFeb 5, 2022\n\n\nHeath Yates\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#what-is-kubernetes",
+    "href": "posts/getting-started-with-k3s-fast/index.html#what-is-kubernetes",
+    "title": "Getting Started with K3s Fast",
+    "section": "What is kubernetes",
+    "text": "What is kubernetes\nIn brief, kubernetes (k8s) is an open source platform designed to automate how containerized applications can be deployed, scaled, and managed. In addition, it has some very handy orchestration to handle what happens if a container or pod goes down such that it can spin up the application on an available node."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html",
+    "href": "posts/getting-started-with-k3s-fast/index.html",
+    "title": "Getting Started with K3s Fast",
+    "section": "",
+    "text": "Generated using DALLE. Prompt and design by Heath Yates"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#introduction",
+    "href": "posts/getting-started-with-k3s-fast/index.html#introduction",
+    "title": "Getting Started with K3s Fast",
+    "section": "Introduction",
+    "text": "Introduction\nK3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install kubernetes with a single binary. Compared to other K8s solutions such as microk8s, K3s was chosen for it’s small size and ease of installation. For further reading, please see the official documents here. In addition, here is a concise explaination of k8s. The beauty of k3s is a core single binary installation that allows the user to install k8s core components without requiring a deep knowledge of the underlaying concepts of k8s. The goal is to align with the official documents, but aims to be a conscise, fast, and two node installation."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#components-of-k3s",
+    "href": "posts/getting-started-with-k3s-fast/index.html#components-of-k3s",
+    "title": "Getting Started with K3s Fast",
+    "section": "Components of k3s",
+    "text": "Components of k3s\nK3s contains only the core components of a kubernetes cluster such as the following:"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#references",
+    "href": "posts/getting-started-with-k3s-fast/index.html#references",
+    "title": "Getting Started with K3s Fast",
+    "section": "References",
+    "text": "References\n\nMarkdown notes for installing ks\nk3s official documentation"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#caveats",
+    "href": "posts/getting-started-with-k3s-fast/index.html#caveats",
+    "title": "Getting Started with K3s Fast",
+    "section": "Caveats",
+    "text": "Caveats\nThis instruction assumes that you have two machines. One will be the server or primary node. The other node will be the secondary node or secondary node. It is beyond the scope of this article to walk through a single node deployment."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
+    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
+    "title": "Getting Started with K3s Fast",
+    "section": "K3s Installation",
+    "text": "K3s Installation\nFirst, let us make sure each machine has the system updates:\n    sudo apt-get update\n    sudo apt-get upgrade -y\n    sudo reboot\nSecond, on the each node we install it as follows:\n    sudo apt install curl\n    curl -sfL https://get.k3s.io | sh - systemctl status k3s"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
+    "href": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
+    "title": "Getting Started with K3s Fast",
+    "section": "Verifying that things work",
+    "text": "Verifying that things work\nYou can run this command on the server or primary node:\nsudo k3s kubectl get nodes"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
+    "href": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
+    "title": "Getting Started with K3s Fast",
+    "section": "What is a node token?",
+    "text": "What is a node token?\nA node token is a shared secret that is used by agent nodes to authenticate to the K3s primary node or K3s server. Without this token, it cannot join the network."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#summary",
+    "href": "posts/getting-started-with-k3s-fast/index.html#summary",
+    "title": "Getting Started with K3s Fast",
+    "section": "Summary",
+    "text": "Summary\nThe reader should now be able to install k3s fast."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
+    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
+    "title": "Getting Started with K3s Fast",
+    "section": "K3s Secondary Node",
+    "text": "K3s Secondary Node\nIn addition to the above, we need to have our secondary node be set up as an agent node. First, on the server node run this command:\nsudo cat /var/lib/rancher/k3s/server/node-token\nSecond, on the secondary node do the following:\ncurl -sfL https://get.k3s.io | K3S_URL=https://&lt;SERVER_NODE_IP&gt;:6443 K3S_TOKEN=&lt;INSERT_TOKEN_HERE&gt; sh -\nFor example, we might have something like this to add on the secondary node:\ncurl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.10:6443 K3S_TOKEN=K10abc::server:xyz sh -"
   }
 ]

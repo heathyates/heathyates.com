@@ -1,0 +1,75 @@
+---
+title: "Getting Started with K3s Fast"
+author: "Heath Yates"
+date: "3/09/2025"
+categories: [k3s, kubernetes]
+image: "k3s_rabbits.jpg"
+---
+
+![Generated using DALLE. Prompt and design by Heath Yates](robot_rabbit.jpg)
+
+## Introduction
+
+K3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install kubernetes with a single binary. Compared to other K8s solutions such as microk8s, K3s was chosen for it's small size and ease of installation. For further reading, please see the official documents here. In addition, here is a concise explaination of [k8s](https://www.youtube.com/watch?v=PziYflu8cB8&t=4s). 
+The beauty of k3s is a core single binary installation that allows the user to install k8s core components without requiring a deep knowledge of the underlaying concepts of k8s. The goal is to align with the official documents, but aims to be a conscise, fast, and two node installation. 
+
+
+## Caveats 
+
+This instruction assumes that you have two machines. One will be the server or primary node. The other node will be the secondary node or secondary node. It is beyond the scope of this article to walk through a single node deployment. 
+
+## K3s Installation 
+
+First, let us make sure each machine has the system updates: 
+```
+	sudo apt-get update
+	sudo apt-get upgrade -y
+    sudo reboot
+```
+
+Second, on the each node we install it as follows: 
+```
+	sudo apt install curl
+	curl -sfL https://get.k3s.io | sh - systemctl status k3s
+```
+
+## K3s Secondary Node 
+
+In addition to the above, we need to have our secondary node be set up as an agent node. 
+First, on the server node run this command: 
+```
+sudo cat /var/lib/rancher/k3s/server/node-token
+```
+
+Second, on the secondary node do the following: 
+```
+curl -sfL https://get.k3s.io | K3S_URL=https://<SERVER_NODE_IP>:6443 K3S_TOKEN=<INSERT_TOKEN_HERE> sh -
+```
+
+For example, we might have something like this to add on the secondary node: 
+```
+curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.10:6443 K3S_TOKEN=K10abc::server:xyz sh -
+```
+
+
+## Verifying that things work 
+
+You can run this command on the server or primary node: 
+```
+sudo k3s kubectl get nodes
+```
+
+## What is a node token? 
+
+A node token is a shared secret that is used by agent nodes to authenticate to the K3s primary node or K3s server. Without this token, it cannot join the network. 
+
+
+## Summary
+
+The reader should now be able to install k3s fast. 
+
+
+## References 
+
+- [Markdown notes for installing ks](https://github.com/heathyates/wushu-scrolls/blob/main/containerization/k3s.md)
+- [k3s official documentation](https://k3s.io/)

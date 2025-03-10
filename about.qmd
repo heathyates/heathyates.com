@@ -4,38 +4,30 @@ about:
   template: trestles 
   image: circleprofileyatessmall.png 
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/YatesHeath
+
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/heathyates/ 
     - icon: github
       text: Github
       href: https://github.com/heathyates
+    - text: "{{< iconify fa6-brands bluesky >}}"  
+      href: https://bsky.app/profile/heathyates.bsky.social
 ---
 
-I am a machine learning engineer at [Artisight](https://www.artisight.com/). I am also an adjunct professor at Kansas State University. I have 8 years of combined experience in data analytics, software engineering, and research
+
+I'm a seasoned Senior Machine Learning Engineer at Artisight and an Adjunct Professor at Kansas State University, with a decade of hands-on experience solving real-world business problems through machine learning, software engineering, and data analytics. I also enjoy teaching, mentoring, and exploring new research.
 
 ## Domain Expertise
 
-* Machine Learning Engineering 
-* Applied Data Analytics 
-* Research and Development 
+* AI Systems Engineering   
+* MLOps & Automation   
+* Applied Research & Technical Leadership
 
 ## Technical Proficiences 
 
-* **Python**
-  + venv
-  + pandas 
-  + numpy 
-  + scikit-learn
-  + pytorch 
-  + pytest 
-  + pydantic 
-
-
-* **MLE Stack**
+* **AI Engineer Stack**
+  + Python
   + LabelStudio 
   + Triton 
   + ClearML 
@@ -43,10 +35,12 @@ I am a machine learning engineer at [Artisight](https://www.artisight.com/). I a
   + Postgresql 
   + Teradata 
   + S3 
+  + Debian 
+  + Hailo
 
 
 * **MLOps**
-  + Gitlab 
+  + Github
   + Docker 
   + Ansible 
   + Terraform 

@@ -12,8 +12,9 @@ website:
         href: resume/yates-resume-cv.pdf
       - icon: github
         href: https://github.com/heathyates
-      - icon: twitter
-        href: https://twitter.com/YatesHeath
+      - text: "{{< iconify fa6-brands bluesky >}}"  
+        href: https://bsky.app/profile/heathyates.bsky.social
+      
 
 format:
   html:

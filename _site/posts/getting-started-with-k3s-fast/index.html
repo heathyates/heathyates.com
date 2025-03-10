@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Heath Yates">
-<meta name="dcterms.date" content="2022-02-05">
+<meta name="dcterms.date" content="2025-03-09">
 
-<title>Heath Yates - Getting RStudio Server on WSL2</title>
+<title>Heath Yates - Getting Started with K3s Fast</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -118,10 +118,10 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Getting RStudio Server on WSL2</h1>
+      <h1 class="title">Getting Started with K3s Fast</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">R</div>
-                <div class="quarto-category">WSL2</div>
+                <div class="quarto-category">k3s</div>
+                <div class="quarto-category">kubernetes</div>
               </div>
                   </div>
   </div>
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 5, 2022</p>
+        <p class="date">March 9, 2025</p>
       </div>
     </div>
     
@@ -160,34 +160,56 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="coding.jpg" class="img-fluid figure-img" style="width:95.0%"></p>
-<figcaption>Photo by Sai Kiran Anagani on StockSnap</figcaption>
+<p><img src="robot_rabbit.jpg" class="img-fluid figure-img"></p>
+<figcaption>Generated using DALLE. Prompt and design by Heath Yates</figcaption>
 </figure>
 </div>
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>As a developer from a background with .NET and Microsoft tools, it comes as no surprise that I use Windows as my development platform. However, developing on Windows has never been better. The Windows Subsystem for Linux (WSL) allows a developer to essentially to right at home with linux, arguably the best contemporary platform for developing.</p>
-<p>As an R user, being able to develop on the linux platform and using RStudio IDE as a Windows users is a winning prospect. Fortunately, this has been made possible by RStudio and they wrote a lenthly blog post.</p>
-<p>My blog post is just a brief outline of steps and references for getting RStudio server on WSL2.</p>
+<p>K3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install kubernetes with a single binary. Compared to other K8s solutions such as microk8s, K3s was chosen for it’s small size and ease of installation. For further reading, please see the official documents here. In addition, here is a concise explaination of <a href="https://www.youtube.com/watch?v=PziYflu8cB8&amp;t=4s">k8s</a>. The beauty of k3s is a core single binary installation that allows the user to install k8s core components without requiring a deep knowledge of the underlaying concepts of k8s. The goal is to align with the official documents, but aims to be a conscise, fast, and two node installation.</p>
 </section>
-<section id="pre-requisites" class="level2">
-<h2 class="anchored" data-anchor-id="pre-requisites">Pre-requisites</h2>
-<p>This blog will assume the following as pre-requisites. Namely, WSL2, Ubuntu, and R have been installed successfully.</p>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>This instruction assumes that you have two machines. One will be the server or primary node. The other node will be the secondary node or secondary node. It is beyond the scope of this article to walk through a single node deployment.</p>
+</section>
+<section id="k3s-installation" class="level2">
+<h2 class="anchored" data-anchor-id="k3s-installation">K3s Installation</h2>
+<p>First, let us make sure each machine has the system updates:</p>
+<pre><code>    sudo apt-get update
+    sudo apt-get upgrade -y
+    sudo reboot</code></pre>
+<p>Second, on the each node we install it as follows:</p>
+<pre><code>    sudo apt install curl
+    curl -sfL https://get.k3s.io | sh - systemctl status k3s</code></pre>
+</section>
+<section id="k3s-secondary-node" class="level2">
+<h2 class="anchored" data-anchor-id="k3s-secondary-node">K3s Secondary Node</h2>
+<p>In addition to the above, we need to have our secondary node be set up as an agent node. First, on the server node run this command:</p>
+<pre><code>sudo cat /var/lib/rancher/k3s/server/node-token</code></pre>
+<p>Second, on the secondary node do the following:</p>
+<pre><code>curl -sfL https://get.k3s.io | K3S_URL=https://&lt;SERVER_NODE_IP&gt;:6443 K3S_TOKEN=&lt;INSERT_TOKEN_HERE&gt; sh -</code></pre>
+<p>For example, we might have something like this to add on the secondary node:</p>
+<pre><code>curl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.10:6443 K3S_TOKEN=K10abc::server:xyz sh -</code></pre>
+</section>
+<section id="verifying-that-things-work" class="level2">
+<h2 class="anchored" data-anchor-id="verifying-that-things-work">Verifying that things work</h2>
+<p>You can run this command on the server or primary node:</p>
+<pre><code>sudo k3s kubectl get nodes</code></pre>
+</section>
+<section id="what-is-a-node-token" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-a-node-token">What is a node token?</h2>
+<p>A node token is a shared secret that is used by agent nodes to authenticate to the K3s primary node or K3s server. Without this token, it cannot join the network.</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The reader should now be able to install k3s fast.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
 <ul>
-<li>Configure WSL2 and Ubuntu - <a href="https://cran.r-project.org/bin/linux/ubuntu/">Link</a></li>
-<li>Install R on WSL2 - <a href="https://cran.r-project.org/bin/linux/ubuntu/">Link</a></li>
+<li><a href="https://github.com/heathyates/wushu-scrolls/blob/main/containerization/k3s.md">Markdown notes for installing ks</a></li>
+<li><a href="https://k3s.io/">k3s official documentation</a></li>
 </ul>
-</section>
-<section id="installing-rstudio" class="level2">
-<h2 class="anchored" data-anchor-id="installing-rstudio">Installing RStudio</h2>
-<p>For a more lengthy outline of the following steps, I encourage the reader to follow Gary Ritchie’s blog post <a href="https://support.rstudio.com/hc/en-us/articles/360049776974-Using-RStudio-Server-in-Windows-WSL2">here</a>.</p>
-<p>Install RStudio Server is extremely straight forward as possible. Enter the following command in WSL2:</p>
-<p><code>wget https://rstudio.org/download/latest/stable/server/bionic/rstudio-server-latest-amd64.deb</code> <code>sudo gdebi rstudio-server-latest-amd64.deb</code></p>
-<p>Additionally, you can use the server itself by the accessing RStudio on your web browser at the url <code>http://localhost:8787</code>. You will need to enter in your your username and password that is used for the linux system on WSL.</p>
-</section>
-<section id="using-rstudio-server-on-wsl2" class="level2">
-<h2 class="anchored" data-anchor-id="using-rstudio-server-on-wsl2">Using RStudio server on WSL2</h2>
-<p>You can start the server with <code>sudo rstudio-server start</code> and stop with <code>sudo rstudio-server stop</code>. It is that simple.</p>
 
 
 </section>

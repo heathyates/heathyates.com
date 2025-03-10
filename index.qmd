@@ -1,5 +1,5 @@
 ---
-title: "Data Science Muses"
+title: "Heath's Mindware"
 listing:
   contents: posts
   sort: "date desc"
