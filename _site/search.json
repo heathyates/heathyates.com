@@ -144,7 +144,7 @@
     "href": "posts/getting-started-with-tabby-fast/index.html#caveats",
     "title": "Getting Started with Tabby Fast",
     "section": "Caveats",
-    "text": "Caveats\nThis guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that"
+    "text": "Caveats\nThis guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that tabby container can be stood up with docker with GPU support."
   },
   {
     "objectID": "posts/getting-started-with-tabby-fast/index.html#docker-and-wsl-pre-requisites",

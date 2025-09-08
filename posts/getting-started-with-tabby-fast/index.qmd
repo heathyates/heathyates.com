@@ -14,7 +14,7 @@ Tabby is an open-source framework that allows the user to self-host an AI coding
 
 ## Caveats 
 
-This guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that
+This guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that tabby container can be stood up with docker with GPU support. 
 
 ## Docker and WSL Pre-Requisites 
 
