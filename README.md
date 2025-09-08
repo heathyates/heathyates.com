@@ -17,6 +17,8 @@ You can verify the `quarto` installed properly by running the following command:
 
 Please spin up the container by running `Dev Containers: Rebuild Container without Cache` with the command palette. Once you have the container spun up. Please open a unique terminal and run `quarto preview`. 
 
+If you want to build the website, use `quarto render`. 
+
 
 # Build Status 
 

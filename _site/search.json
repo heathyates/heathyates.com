@@ -35,6 +35,69 @@
     "text": "Using RStudio server on WSL2\nYou can start the server with sudo rstudio-server start and stop with sudo rstudio-server stop. It is that simple."
   },
   {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html",
+    "href": "posts/getting-started-with-k3s-fast/index.html",
+    "title": "Getting Started with K3s Fast",
+    "section": "",
+    "text": "Generated using DALLE. Prompt and design by Heath Yates"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#introduction",
+    "href": "posts/getting-started-with-k3s-fast/index.html#introduction",
+    "title": "Getting Started with K3s Fast",
+    "section": "Introduction",
+    "text": "Introduction\nK3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install kubernetes with a single binary. Compared to other K8s solutions such as microk8s, K3s was chosen for it’s small size and ease of installation. For further reading, please see the official documents here. In addition, here is a concise explaination of k8s. The beauty of k3s is a core single binary installation that allows the user to install k8s core components without requiring a deep knowledge of the underlaying concepts of k8s. The goal is to align with the official documents, but aims to be a conscise, fast, and two node installation."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#caveats",
+    "href": "posts/getting-started-with-k3s-fast/index.html#caveats",
+    "title": "Getting Started with K3s Fast",
+    "section": "Caveats",
+    "text": "Caveats\nThis instruction assumes that you have two machines. One will be the server or primary node. The other node will be the secondary node or secondary node. It is beyond the scope of this article to walk through a single node deployment."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
+    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
+    "title": "Getting Started with K3s Fast",
+    "section": "K3s Installation",
+    "text": "K3s Installation\nFirst, let us make sure each machine has the system updates:\n    sudo apt-get update\n    sudo apt-get upgrade -y\n    sudo reboot\nSecond, on the each node we install it as follows:\n    sudo apt install curl\n    curl -sfL https://get.k3s.io | sh - systemctl status k3s"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
+    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
+    "title": "Getting Started with K3s Fast",
+    "section": "K3s Secondary Node",
+    "text": "K3s Secondary Node\nIn addition to the above, we need to have our secondary node be set up as an agent node. First, on the server node run this command:\nsudo cat /var/lib/rancher/k3s/server/node-token\nSecond, on the secondary node do the following:\ncurl -sfL https://get.k3s.io | K3S_URL=https://&lt;SERVER_NODE_IP&gt;:6443 K3S_TOKEN=&lt;INSERT_TOKEN_HERE&gt; sh -\nFor example, we might have something like this to add on the secondary node:\ncurl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.10:6443 K3S_TOKEN=K10abc::server:xyz sh -"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
+    "href": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
+    "title": "Getting Started with K3s Fast",
+    "section": "Verifying that things work",
+    "text": "Verifying that things work\nYou can run this command on the server or primary node:\nsudo k3s kubectl get nodes"
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
+    "href": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
+    "title": "Getting Started with K3s Fast",
+    "section": "What is a node token?",
+    "text": "What is a node token?\nA node token is a shared secret that is used by agent nodes to authenticate to the K3s primary node or K3s server. Without this token, it cannot join the network."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#summary",
+    "href": "posts/getting-started-with-k3s-fast/index.html#summary",
+    "title": "Getting Started with K3s Fast",
+    "section": "Summary",
+    "text": "Summary\nThe reader should now be able to install k3s fast."
+  },
+  {
+    "objectID": "posts/getting-started-with-k3s-fast/index.html#references",
+    "href": "posts/getting-started-with-k3s-fast/index.html#references",
+    "title": "Getting Started with K3s Fast",
+    "section": "References",
+    "text": "References\n\nMarkdown notes for installing ks\nk3s official documentation"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About Me",
@@ -60,83 +123,69 @@
     "href": "index.html",
     "title": "Heath’s Mindware",
     "section": "",
-    "text": "Getting Started with K3s Fast\n\n\n\n\n\n\nk3s\n\n\nkubernetes\n\n\n\n\n\n\n\n\n\nMar 9, 2025\n\n\nHeath Yates\n\n\n\n\n\n\n\n\n\n\n\n\nGetting RStudio Server on WSL2\n\n\n\n\n\n\nR\n\n\nWSL2\n\n\n\n\n\n\n\n\n\nFeb 5, 2022\n\n\nHeath Yates\n\n\n\n\n\n\nNo matching items"
+    "text": "Getting Started with Tabby Fast\n\n\n\n\n\n\ntabby\n\n\ngenai\n\n\n\n\n\n\n\n\n\nSep 7, 2025\n\n\nHeath Yates\n\n\n\n\n\n\n\n\n\n\n\n\nGetting Started with K3s Fast\n\n\n\n\n\n\nk3s\n\n\nkubernetes\n\n\n\n\n\n\n\n\n\nMar 9, 2025\n\n\nHeath Yates\n\n\n\n\n\n\n\n\n\n\n\n\nGetting RStudio Server on WSL2\n\n\n\n\n\n\nR\n\n\nWSL2\n\n\n\n\n\n\n\n\n\nFeb 5, 2022\n\n\nHeath Yates\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#what-is-kubernetes",
-    "href": "posts/getting-started-with-k3s-fast/index.html#what-is-kubernetes",
-    "title": "Getting Started with K3s Fast",
-    "section": "What is kubernetes",
-    "text": "What is kubernetes\nIn brief, kubernetes (k8s) is an open source platform designed to automate how containerized applications can be deployed, scaled, and managed. In addition, it has some very handy orchestration to handle what happens if a container or pod goes down such that it can spin up the application on an available node."
-  },
-  {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html",
-    "href": "posts/getting-started-with-k3s-fast/index.html",
-    "title": "Getting Started with K3s Fast",
+    "objectID": "posts/getting-started-with-tabby-fast/index.html",
+    "href": "posts/getting-started-with-tabby-fast/index.html",
+    "title": "Getting Started with Tabby Fast",
     "section": "",
     "text": "Generated using DALLE. Prompt and design by Heath Yates"
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#introduction",
-    "href": "posts/getting-started-with-k3s-fast/index.html#introduction",
-    "title": "Getting Started with K3s Fast",
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#introduction",
+    "href": "posts/getting-started-with-tabby-fast/index.html#introduction",
+    "title": "Getting Started with Tabby Fast",
     "section": "Introduction",
-    "text": "Introduction\nK3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install kubernetes with a single binary. Compared to other K8s solutions such as microk8s, K3s was chosen for it’s small size and ease of installation. For further reading, please see the official documents here. In addition, here is a concise explaination of k8s. The beauty of k3s is a core single binary installation that allows the user to install k8s core components without requiring a deep knowledge of the underlaying concepts of k8s. The goal is to align with the official documents, but aims to be a conscise, fast, and two node installation."
+    "text": "Introduction\nTabby is an open-source framework that allows the user to self-host an AI coding assistant with integrations with VS Code. In other words, it is a framwork that allows a user to have an auto-complete assistant and webchat interface with self-hosted AI assistants."
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#components-of-k3s",
-    "href": "posts/getting-started-with-k3s-fast/index.html#components-of-k3s",
-    "title": "Getting Started with K3s Fast",
-    "section": "Components of k3s",
-    "text": "Components of k3s\nK3s contains only the core components of a kubernetes cluster such as the following:"
-  },
-  {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#references",
-    "href": "posts/getting-started-with-k3s-fast/index.html#references",
-    "title": "Getting Started with K3s Fast",
-    "section": "References",
-    "text": "References\n\nMarkdown notes for installing ks\nk3s official documentation"
-  },
-  {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#caveats",
-    "href": "posts/getting-started-with-k3s-fast/index.html#caveats",
-    "title": "Getting Started with K3s Fast",
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#caveats",
+    "href": "posts/getting-started-with-tabby-fast/index.html#caveats",
+    "title": "Getting Started with Tabby Fast",
     "section": "Caveats",
-    "text": "Caveats\nThis instruction assumes that you have two machines. One will be the server or primary node. The other node will be the secondary node or secondary node. It is beyond the scope of this article to walk through a single node deployment."
+    "text": "Caveats\nThis guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that"
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
-    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-installation",
-    "title": "Getting Started with K3s Fast",
-    "section": "K3s Installation",
-    "text": "K3s Installation\nFirst, let us make sure each machine has the system updates:\n    sudo apt-get update\n    sudo apt-get upgrade -y\n    sudo reboot\nSecond, on the each node we install it as follows:\n    sudo apt install curl\n    curl -sfL https://get.k3s.io | sh - systemctl status k3s"
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#docker-and-wsl-pre-requisites",
+    "href": "posts/getting-started-with-tabby-fast/index.html#docker-and-wsl-pre-requisites",
+    "title": "Getting Started with Tabby Fast",
+    "section": "Docker and WSL Pre-Requisites",
+    "text": "Docker and WSL Pre-Requisites\nFirst, make sure that you install Docker desktop and install it. Second, go to Settings &gt; General in the Desktop application and select Use the WSL 2 based engine (Windows Home can only run the WSL 2 backend). Third,\n\n\n\nOptional configuration"
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
-    "href": "posts/getting-started-with-k3s-fast/index.html#verifying-that-things-work",
-    "title": "Getting Started with K3s Fast",
-    "section": "Verifying that things work",
-    "text": "Verifying that things work\nYou can run this command on the server or primary node:\nsudo k3s kubectl get nodes"
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#getting-tabby-started-on-local-machine",
+    "href": "posts/getting-started-with-tabby-fast/index.html#getting-tabby-started-on-local-machine",
+    "title": "Getting Started with Tabby Fast",
+    "section": "Getting tabby started on local machine",
+    "text": "Getting tabby started on local machine\nFirst, open the WSL terminal. Second, post a command like in the WSL terminal:\n    docker run -d \\\n        --name tabby \\\n        --gpus all \\\n        -p 8080:8080 \\\n        -v $HOME/.tabby:/data \\\n        registry.tabbyml.com/tabbyml/tabby \\\n        serve \\\n        --model StarCoder-1B \\\n        --chat-model Qwen2-1.5B-Instruct \\\n        --device cuda\nThird, you can check if this is working with docker logs -f --tail 200 tabby and docker exec tabby curl -v http://localhost:8080/. Fourth, if that works navigate to http://locahost:8080 and create a user account. Five, once you create an account navigate to the profile icon and it will display endpoint url and token. These can be used in the next step."
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
-    "href": "posts/getting-started-with-k3s-fast/index.html#what-is-a-node-token",
-    "title": "Getting Started with K3s Fast",
-    "section": "What is a node token?",
-    "text": "What is a node token?\nA node token is a shared secret that is used by agent nodes to authenticate to the K3s primary node or K3s server. Without this token, it cannot join the network."
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#installing-vs-code-extensions-and",
+    "href": "posts/getting-started-with-tabby-fast/index.html#installing-vs-code-extensions-and",
+    "title": "Getting Started with Tabby Fast",
+    "section": "Installing VS Code extensions and",
+    "text": "Installing VS Code extensions and\nFirst, in VS Code make sure you go to extensions and install the tabby extension as follows here. Second, in VS Code click the tabby icon on the lower right side. Click the option that says Connect to Server and input the Tabby server’s endpoint URL and account token. Alternatively, in VS Code palette you can type Tabby: Connect to Server and input the authentication information."
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#summary",
-    "href": "posts/getting-started-with-k3s-fast/index.html#summary",
-    "title": "Getting Started with K3s Fast",
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#experimenting-that-things-work",
+    "href": "posts/getting-started-with-tabby-fast/index.html#experimenting-that-things-work",
+    "title": "Getting Started with Tabby Fast",
+    "section": "Experimenting that things work",
+    "text": "Experimenting that things work\nOpen VS Code and have a blank file for python. In the example below, it is named check_primes.py. Experiment with comments to get a function for prime. For example, you can write #Function to return true if number is prime or false if not in your terminal and see a function similar to the one below provided:\n#!/usr/bin/env python3\n\nimport sys\n\n#Function to return true if number is prime or false if not \ndef isPrime(n):\n    if n == 1:\n        return False\n    if n == 2:\n        return True\n    if n % 2 == 0:\n        return False\n    for i in range(3, int(n ** 0.5) + 1, 2):\n        if n % i == 0:\n            return False\n    return True\n\ndef main():\n    if len(sys.argv) != 3:\n        print(f\"Usage: {sys.argv[0]} &lt;number1&gt; &lt;number2&gt;\")\n        sys.exit(1)\n\n    for arg in sys.argv[1:]:\n        try:\n            num = int(arg)\n        except ValueError:\n            print(f\"Error: '{arg}' is not an integer.\")\n            continue\n\n        if isPrime(num):\n            print(f\"{num} is prime\")\n        else:\n            print(f\"{num} is not prime\")\n\nif __name__ == \"__main__\":\n    main()\n\nThe rest of the code shown above can be reproduced in a similar fashion through a combination of code completion, direct input, and prompts. In this demonstration, the rest can be generated with any sufficiently powerful AI assistant via chat. It is recommended to leverage a self hosted model of at least 7B for that functionality. Given the above, once can test this out if the file is named check_primes.py and ran as follows:\npython3 check_primes.py 9 11\n9 is not prime\n11 is prime\nLet us briefly recap the above. In a matter of mere seconds, a prototype program was developed to determine if a number is prime or not. It has purposely been left very raw and without any revisions. In practice, the user is sure to refine, tweak, and optimize. It is for demonstration and convenience purposes only to show capabilities."
+  },
+  {
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#summary",
+    "href": "posts/getting-started-with-tabby-fast/index.html#summary",
+    "title": "Getting Started with Tabby Fast",
     "section": "Summary",
-    "text": "Summary\nThe reader should now be able to install k3s fast."
+    "text": "Summary\nThe reader should now be able to install and use tabby on their local machine. The key part of this demonstration is just how quickly one can install AI assistance tools with open-source frameworks and be able to self-host with reasonable hardware.\nA brief philosophical muse as follows: The combination of code-completion, direct user input, and use of prompts via comments is very powerful tool in a capable user and practioner. While these ai empowered tools enhance productivity, one must still be mindful of the fundamentals. It is highly encouraged for readers to stay focused on the principles of good architecture and software, irregardless of how tools create it. An experienced technical worker should make sure that a program is solving a problem and a business need in an effective and optimal manner. In a word, it is usMore generally, an engineer still must contend with optimal data structures, design patterns, reliability, and scalability. In brief, making something useful and reliable.\nThis open source framework will allow reaching that objective quicker and faster if used carefully. In addition, these tools empower an engineer or user to do much more very quickly."
   },
   {
-    "objectID": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
-    "href": "posts/getting-started-with-k3s-fast/index.html#k3s-secondary-node",
-    "title": "Getting Started with K3s Fast",
-    "section": "K3s Secondary Node",
-    "text": "K3s Secondary Node\nIn addition to the above, we need to have our secondary node be set up as an agent node. First, on the server node run this command:\nsudo cat /var/lib/rancher/k3s/server/node-token\nSecond, on the secondary node do the following:\ncurl -sfL https://get.k3s.io | K3S_URL=https://&lt;SERVER_NODE_IP&gt;:6443 K3S_TOKEN=&lt;INSERT_TOKEN_HERE&gt; sh -\nFor example, we might have something like this to add on the secondary node:\ncurl -sfL https://get.k3s.io | K3S_URL=https://192.168.1.10:6443 K3S_TOKEN=K10abc::server:xyz sh -"
+    "objectID": "posts/getting-started-with-tabby-fast/index.html#references",
+    "href": "posts/getting-started-with-tabby-fast/index.html#references",
+    "title": "Getting Started with Tabby Fast",
+    "section": "References",
+    "text": "References\n\nInstallation of tabby with docker\nDocker Desktop\nSet up the ide"
   }
 ]
