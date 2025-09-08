@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Heath Yates">
+<meta name="dcterms.date" content="2025-09-07">
 
-<title>Heath Yates - Heath’s Mindware</title>
+<title>Heath Yates - Getting Started with Tabby Fast</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,76 +69,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Heath Yates</span>
     </a>
   </div>
@@ -149,11 +91,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./resume/yates-resume-cv.pdf"> 
+    <a class="nav-link" href="../../resume/yates-resume-cv.pdf"> 
 <span class="menu-text">Resume</span></a>
   </li>  
   <li class="nav-item compact">
@@ -173,153 +115,156 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Getting Started with Tabby Fast</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">tabby</div>
+                <div class="quarto-category">genai</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Heath Yates </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 7, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="WSL2">WSL2 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="genai">genai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="k3s">k3s <span class="quarto-category-count">(1)</span></div><div class="category" data-category="kubernetes">kubernetes <span class="quarto-category-count">(1)</span></div><div class="category" data-category="tabby">tabby <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Heath’s Mindware</h1>
-</div>
-
-
-
-<div class="quarto-title-meta column-page-left">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="cute_robot_cat.png" class="img-fluid figure-img"></p>
+<figcaption>Generated using DALLE. Prompt and design by Heath Yates</figcaption>
+</figure>
+</div>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Tabby is an open-source framework that allows the user to self-host an AI coding assistant with integrations with VS Code. In other words, it is a framwork that allows a user to have an auto-complete assistant and webchat interface with self-hosted AI assistants.</p>
+</section>
+<section id="caveats" class="level2">
+<h2 class="anchored" data-anchor-id="caveats">Caveats</h2>
+<p>This guide assumes you have a computer running Windows with a NVIDIA GPU of sufficient power. In addition, it is beyond the scope of this post to walk the reader through the nuances of Windows, VS Code, and extensions. It is also assumed that the user has nvidia drivers properly configured such that</p>
+</section>
+<section id="docker-and-wsl-pre-requisites" class="level2">
+<h2 class="anchored" data-anchor-id="docker-and-wsl-pre-requisites">Docker and WSL Pre-Requisites</h2>
+<p>First, make sure that you install Docker <a href="https://www.docker.com/products/docker-desktop/">desktop</a> and install it. Second, go to <code>Settings &gt; General</code> in the Desktop application and select <code>Use the WSL 2 based engine (Windows Home can only run the WSL 2 backend)</code>. Third,</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="docker_ai_options.jpg" class="img-fluid figure-img"></p>
+<figcaption>Optional configuration</figcaption>
+</figure>
+</div>
+</section>
+<section id="getting-tabby-started-on-local-machine" class="level2">
+<h2 class="anchored" data-anchor-id="getting-tabby-started-on-local-machine">Getting tabby started on local machine</h2>
+<p>First, open the WSL terminal. Second, post a command like in the WSL terminal:</p>
+<pre><code>    docker run -d \
+        --name tabby \
+        --gpus all \
+        -p 8080:8080 \
+        -v $HOME/.tabby:/data \
+        registry.tabbyml.com/tabbyml/tabby \
+        serve \
+        --model StarCoder-1B \
+        --chat-model Qwen2-1.5B-Instruct \
+        --device cuda</code></pre>
+<p>Third, you can check if this is working with <code>docker logs -f --tail 200 tabby</code> and <code>docker exec tabby curl -v http://localhost:8080/</code>. Fourth, if that works navigate to <code>http://locahost:8080</code> and create a user account. Five, once you create an account navigate to the profile icon and it will display endpoint url and token. These can be used in the next step.</p>
+</section>
+<section id="installing-vs-code-extensions-and" class="level2">
+<h2 class="anchored" data-anchor-id="installing-vs-code-extensions-and">Installing VS Code extensions and</h2>
+<p>First, in VS Code make sure you go to extensions and install the tabby extension as follows <a href="https://marketplace.visualstudio.com/items?itemName=TabbyML.vscode-tabby">here</a>. Second, in VS Code click the tabby icon on the lower right side. Click the option that says <code>Connect to Server</code> and input the Tabby server’s endpoint URL and account token. Alternatively, in VS Code palette you can type <code>Tabby: Connect to Server</code> and input the authentication information.</p>
+</section>
+<section id="experimenting-that-things-work" class="level2">
+<h2 class="anchored" data-anchor-id="experimenting-that-things-work">Experimenting that things work</h2>
+<p>Open VS Code and have a blank file for <code>python</code>. In the example below, it is named <code>check_primes.py</code>. Experiment with comments to get a function for <a href="https://en.wikipedia.org/wiki/List_of_prime_numbers">prime</a>. For example, you can write <code>#Function to return true if number is prime or false if not</code> in your terminal and see a function similar to the one below provided:</p>
+<pre><code>#!/usr/bin/env python3
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="tabby,genai" data-listing-date-sort="1757203200000" data-listing-file-modified-sort="1757299074448" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1005">
-<div class="thumbnail">
-<p><a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external"></a></p><a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external">
-<p><img src="./posts/getting-started-with-tabby-fast/cute_robot_cat.png" class="thumbnail-image"></p>
-</a><p><a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external">Getting Started with Tabby Fast</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('tabby'); return false;">
-tabby
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('genai'); return false;">
-genai
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external">Tabby is an open-source framework that allows the user to self-host an AI coding assistant with integrations with VS Code. In other words, it is a framwork that allows a…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/getting-started-with-tabby-fast/index.html" class="no-external">
-<div class="listing-date">
-Sep 7, 2025
-</div>
-<div class="listing-author">
-Heath Yates
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="k3s,kubernetes" data-listing-date-sort="1741478400000" data-listing-file-modified-sort="1741576498351" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="363">
-<div class="thumbnail">
-<p><a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external"></a></p><a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external">
-<p><img src="./posts/getting-started-with-k3s-fast/k3s_rabbits.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external">Getting Started with K3s Fast</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('k3s'); return false;">
-k3s
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('kubernetes'); return false;">
-kubernetes
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external">K3s is a lightweight k8s distribution created by Rancher Labs. It abstracts the complexity normally associated with k8s by allowing the reader the ability to install…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/getting-started-with-k3s-fast/index.html" class="no-external">
-<div class="listing-date">
-Mar 9, 2025
-</div>
-<div class="listing-author">
-Heath Yates
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="R,WSL2" data-listing-date-sort="1644019200000" data-listing-file-modified-sort="1740275833843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="262">
-<div class="thumbnail">
-<p><a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external"></a></p><a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external">
-<p><img src="./posts/getting-rstudio-server-on-wsl2/penguin.jpg" class="thumbnail-image"></p>
-</a><p><a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external"></a></p>
-</div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external">Getting RStudio Server on WSL2</a>
-</h3>
-<div class="listing-subtitle">
-<a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external"></a>
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
-R
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('WSL2'); return false;">
-WSL2
-</div>
-</div>
-<div class="listing-description">
-<a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external">As a developer from a background with .NET and Microsoft tools, it comes as no surprise that I use Windows as my development platform. However, developing on Windows has…</a>
-</div>
-</div>
-<div class="metadata">
-<a href="./posts/getting-rstudio-server-on-wsl2/index.html" class="no-external">
-<div class="listing-date">
-Feb 5, 2022
-</div>
-<div class="listing-author">
-Heath Yates
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+import sys
+
+#Function to return true if number is prime or false if not 
+def isPrime(n):
+    if n == 1:
+        return False
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    for i in range(3, int(n ** 0.5) + 1, 2):
+        if n % i == 0:
+            return False
+    return True
+
+def main():
+    if len(sys.argv) != 3:
+        print(f"Usage: {sys.argv[0]} &lt;number1&gt; &lt;number2&gt;")
+        sys.exit(1)
+
+    for arg in sys.argv[1:]:
+        try:
+            num = int(arg)
+        except ValueError:
+            print(f"Error: '{arg}' is not an integer.")
+            continue
+
+        if isPrime(num):
+            print(f"{num} is prime")
+        else:
+            print(f"{num} is not prime")
+
+if __name__ == "__main__":
+    main()
+</code></pre>
+<p>The rest of the code shown above can be reproduced in a similar fashion through a combination of code completion, direct input, and prompts. In this demonstration, the rest can be generated with any sufficiently powerful AI assistant via chat. It is recommended to leverage a self hosted model of at least 7B for that functionality. Given the above, once can test this out if the file is named <code>check_primes.py</code> and ran as follows:</p>
+<pre><code>python3 check_primes.py 9 11
+9 is not prime
+11 is prime</code></pre>
+<p>Let us briefly recap the above. In a matter of mere seconds, a prototype program was developed to determine if a number is prime or not. It has purposely been left very raw and without any revisions. In practice, the user is sure to refine, tweak, and optimize. It is for demonstration and convenience purposes only to show capabilities.</p>
+</section>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>The reader should now be able to install and use tabby on their local machine. The key part of this demonstration is just how quickly one can install AI assistance tools with open-source frameworks and be able to self-host with reasonable hardware.</p>
+<p>A brief philosophical muse as follows: The combination of code-completion, direct user input, and use of prompts via comments is very powerful tool in a capable user and practioner. While these ai empowered tools enhance productivity, one must still be mindful of the fundamentals. It is highly encouraged for readers to stay focused on the principles of good architecture and software, irregardless of how tools create it. An experienced technical worker should make sure that a program is solving a problem and a business need in an effective and optimal manner. In a word, it is usMore generally, an engineer still must contend with optimal data structures, design patterns, reliability, and scalability. In brief, making something useful and reliable.</p>
+<p>This open source framework will allow reaching that objective quicker and faster if used carefully. In addition, these tools empower an engineer or user to do much more very quickly.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<ul>
+<li><a href="https://tabby.tabbyml.com/docs/quick-start/installation/docker/">Installation of tabby with docker</a></li>
+<li><a href="https://www.docker.com/products/docker-desktop/">Docker Desktop</a></li>
+<li><a href="https://tabby.tabbyml.com/docs/quick-start/setup-ide/">Set up the ide</a></li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
 <footer class="site-footer">
   
     <p class="bold"> 
